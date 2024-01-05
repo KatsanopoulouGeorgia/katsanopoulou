@@ -30,6 +30,7 @@ for line in lines:
 protein_sequences.append(current_sequence)
 
 
+
 # Joins the list in order to look better, and also adds a "*", used later in the code to understand when the
 # protein sequence has ended.
 final_protein_sequence = ''.join(protein_sequences) + "*"
@@ -101,5 +102,4 @@ if final_protein_sequence is True:
     a = 1
 else:
     print("No possible transmembrane sequences found")
-
 
