@@ -6,7 +6,7 @@ fasta_file = ""
 # To be able to read multiple line that have "enter", as someone would have inputted the FASTA file, until the "#"
 # that the user has entered
 while True:
-    line = input()
+    line = raw_input()
     if line.strip() == "#":
         break
 
